@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(220, 9%, 7%);
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fondo{
+    width: 1360px;
+    height: 500px;
+    background-image: url(imagenes/imagen1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bordes{
+    border: solid black;
+}
+.flexing {
+    display: flex;
+}
+.bordes2{
+    border: solid black;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.contenedor a {
+    font-size: 30px;
+}
+.facebook {
+    color: rgb(2, 74, 230);
+}
+.whatsapp {
+    color: rgb(3, 196, 3);
+}
+.twitter {
+    color: #00acee
+}
+.contenedor a:hover{
+    transform: scale(1.2);
+}
+.correo {
+    color: red;
+}
